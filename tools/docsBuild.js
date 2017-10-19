@@ -20,6 +20,14 @@ var docsConfig = [
             path.join(__dirname, LIB_PATH, 'server.js')
         ],
         config: path.join(__dirname, DOCS_PATH, 'config/server.yaml')
+    },
+    {
+        title: 'Response API',
+        permalink: '/docs/response-api/',
+        output: path.join(__dirname, OUTPUT_PATH, 'response.md'),
+        files: [
+            path.join(__dirname, LIB_PATH, 'response.js')
+        ]
     }
     // {
     //     title: 'Plugins API',
